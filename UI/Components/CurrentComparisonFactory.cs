@@ -5,9 +5,9 @@ namespace LiveSplit.UI.Components
 {
     public class CurrentComparisonFactory : IComponentFactory
     {
-        public string ComponentName => "Current Comparison";
+        public string ComponentName => "Comparaison Actuelle";
 
-        public string Description => "Shows which comparison you are currently comparing to.";
+        public string Description => "Affiche la comparaison actuelle des splits.";
 
         public ComponentCategory Category => ComponentCategory.Information;
 
