@@ -25,11 +25,11 @@ namespace LiveSplit.UI.Components
             {
                 CurrentState = state
             };
-            InternalComponent = new InfoTextComponent("Comparing Against", "")
+            InternalComponent = new InfoTextComponent("Comparaison Actuelle", "")
             {
                 AlternateNameText = new[]
                 {
-                    "Comparison",
+                    "Comparaison",
                     "Comp."
                 }
             };
@@ -88,7 +88,7 @@ namespace LiveSplit.UI.Components
 
         public float MinimumHeight => InternalComponent.MinimumHeight;
 
-        public string ComponentName => "Current Comparison";
+        public string ComponentName => "Comparaison Actuelle";
 
         public Control GetSettingsControl(LayoutMode mode)
         {
